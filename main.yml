@@ -1,0 +1,6 @@
+- name: Setup workstation for OpenStack
+  hosts: jumpbox:
+  become: yes
+  gather_facts: false
+  roles:
+    - prepare_jumpbox 

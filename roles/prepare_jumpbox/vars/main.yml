@@ -1,2 +1,9 @@
 ---
 # vars file for prepare_jumpbox
+yu_packages:
+  - git
+  - python-pip 
+
+pip_packages:
+  - ansible
+  - openstacksdk

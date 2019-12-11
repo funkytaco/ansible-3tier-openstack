@@ -1,2 +1,9 @@
 ---
 # defaults file for prepare_jumpbox
+yum_packages:
+  - git
+  - python-pip 
+
+pip_packages:
+  - ansible
+  - openstacksdk
