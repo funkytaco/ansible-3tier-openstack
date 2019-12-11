@@ -25,8 +25,8 @@
 
     - name: Copy clouds.yaml
       copy:
-        src: clouds.yaml
-        dest: /etc/openstack/clouds.yaml
+        src: clouds.yml
+        dest: /etc/openstack/clouds.yml
   tags:  
     - setup-clouds-yaml
 
