@@ -4,3 +4,8 @@
   gather_facts: false
   roles:
     - prepare_jumpbox 
+
+- name: Build OpenStack VPC
+  hosts: jumpbox
+  roles:
+    - osp_setup
